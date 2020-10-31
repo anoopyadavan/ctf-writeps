@@ -165,5 +165,5 @@ and the flag is `whoami`
 
 this is the very very basic chall of this ctf the hints is given join discord and run the flag cmd and the flag is inside the bot channel i joined and run the cmd ?flag i got the flag `CYCTF{W3lc0m3_t0_Cyb3rY0ddh@_CTF_2020!}`
 
-YouTube [@Oblivion](https://www.youtube.com/c/Oblivion5237)
+YouTube [@Oblivion](https://www.youtube.com/c/Oblivion5237)<br/>
 CTFTime [@0b1ivi0n](https://ctftime.org/team/127567)
