@@ -4,7 +4,7 @@
 
 ![Image Viewer](images/Image_Viewer.png)
 
-This is the basi3 challenge of forensics, given My friend took this image in a cool place but it nothing getting from that so this is the forensics chall our first step is to see the strings. So i run the strings cmd on this file. ```strings shoob_2.jpeg | grep CYCTF``` i got the flag. The  flag is `CYCTF{h3h3h3_1m@g3_M3t@d@t@_v13w3r_ICU}`
+This is the basi3 challenge of forensics, given My friend took this image in a cool place but it nothing getting from that so this is the forensics chall our first step is to see the strings. So i run the [strings](https://linux.die.net/man/1/strings) cmd on this file. ```strings shoob_2.jpeg | grep CYCTF``` i got the flag. The  flag is `CYCTF{h3h3h3_1m@g3_M3t@d@t@_v13w3r_ICU}`
 
 ### The row beneath
 
@@ -29,6 +29,8 @@ This is the 300 points chall, using tools stegsolve will get thne flag `CYCTF{l$
 ![steg ultimate](images/steg_ultimate.png)
 
 This chall is of 450 points, and this is little bit tricky about 100 teams solved this challenge. so first i used tools strings, exiftool i got nothings then i used `steghide extract -sf stegultimate.jpg` without passphrase i got steganopayload473955.txt file in that there is pastebin url https://pastebin.com/raw/YnKqT9s3 then i browse that url i got some giberish things i copied all the things and pasted in cyberchef then i used base64 -> render image i got the flag.
+![flag](images/render_image.png)
+
 ## Cryptography
 
 ### Beware the Ides of March
@@ -41,8 +43,10 @@ Given the cipher JFJAM{j@3$@y_j!wo3y} copy and paste in cyberchef and use rot19.
 
 ![Home Base](images/Home_Base.png)
 
-Given cipher 4a5a57474934325a47464b54475632464f4259474336534a4f564647595653574a354345533454434b52585336564a524f425556435533554e4251574f504a35 this looks like base and also given chall name as a home base so i tried decode hex -> base32 -> base64 -> base85 finally got the flag `CYCTF{it5_@_H0m3_2un!}` 
+Given cipher 4a5a57474934325a47464b54475632464f4259474336534a4f564647595653574a354345533454434b52585336564a524f425556435533554e4251574f504a35 this looks like base and also given chall name as a home base so i tried decode
 ![decoder](images/home_base.png)
+hex -> base32 -> base64 -> base85 finally got the flag `CYCTF{it5_@_H0m3_2un!}` 
+
 
 ### Sus
 
@@ -108,13 +112,20 @@ THis is the basic chall of web ctf category. by seeing the source code got the f
 
 ![Disallow](images/Disallow.png)
 
-This is of 100 points chall of web category. by seeing the /robots.txt file one file fot with name Disallow: /n0r0b0tsh3r3/flag.html so i visited and got the flag `CYCTF{d33r0b0t$_r_sUp3r10r}`
+This is of 100 points chall of web category.
+![page](images/dissallow_web.png)
+by seeing the /robots.txt file one file got with name Disallow: /n0r0b0tsh3r3/flag.html
+![robots](images/robots.png)
+![flag](images/disallo_flag.png)
+so i visited and got the flag `CYCTF{d33r0b0t$_r_sUp3r10r}`
 
 ### Data Store 
 
 ![data store](images/Data_Store.png)
 
-This is of 175 points chall. in this chall login page is given so i tried admin'-- and got the flag `CYCTF{1_l0v3_$q1i}`
+This is of 175 points chall.
+![login page](images/data_store.png)
+in this chall login page is given so i tried admin'-- and got the flag `CYCTF{1_l0v3_$q1i}`
 
 
 ## Password Cracking
@@ -123,7 +134,9 @@ This is of 175 points chall. in this chall login page is given so i tried admin'
 
 ![secure i think](images/secure_i_think.png)
 
-This is of password cracking category. Given hash is b0439fae31f8cbba6294af86234d5a28. Simply copy-paste in crackstation got the flag `securepassword`
+This is of password cracking category. Given hash is b0439fae31f8cbba6294af86234d5a28. Simply copy-paste in [crackstation](https://crackstation.net/)
+![flag](images/secure.png)
+got the flag `securepassword`
 
 ### Crack the Zip! 
 
@@ -142,10 +155,15 @@ This is of 225 points chall given hash is 19d14c463333a41a1538dbf9eb76aadf this 
 
 ![Me Myself](images/Me_Myself_and_I.png)
 
-THis is of 225 points chall given hash is 2412f72f0f0213c98c1f9f6065728da4529000e5c3a2e16c4e1379bd3e13ccf543201eec4eb7b400eb5a6c9b774bf0c0eeda44869e08f3a54a0b13109a7644aa i used crackstation and that one is cracked flag is `whoami`
+THis is of 225 points chall given hash is 2412f72f0f0213c98c1f9f6065728da4529000e5c3a2e16c4e1379bd3e13ccf543201eec4eb7b400eb5a6c9b774bf0c0eeda44869e08f3a54a0b13109a7644aa i used [crackstation](https://crackstation.net/)
+![flag](images/me_myself_crackstation.png)
+and the flag is `whoami`
 
 ## Welcome
 
 ![welcome](images/Welcome.png)
 
-this is the very very basic chall of this ctf the hints is given join discord and run the flag cmd and the flag is inside the bot channel i joined and run the cmd ?flag i got the flag CYCTF{W3lc0m3_t0_Cyb3rY0ddh@_CTF_2020!}
+this is the very very basic chall of this ctf the hints is given join discord and run the flag cmd and the flag is inside the bot channel i joined and run the cmd ?flag i got the flag `CYCTF{W3lc0m3_t0_Cyb3rY0ddh@_CTF_2020!}`
+
+YouTube [@Oblivion](https://www.youtube.com/c/Oblivion5237)
+CTFTime [@0b1ivi0n](https://ctftime.org/team/127567)
