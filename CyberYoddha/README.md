@@ -2,25 +2,25 @@
 
 ### Image Viewer
 
-![Image Viewer](images/Image\ Viewer.png)
+![Image Viewer](images/Image_Viewer.png)
 
 This is the basi3 challenge of forensics, given My friend took this image in a cool place but it nothing getting from that so this is the forensics chall our first step is to see the strings. So i run the strings cmd on this file. ```strings shoob_2.jpeg | grep CYCTF``` i got the flag. The  flag is `CYCTF{h3h3h3_1m@g3_M3t@d@t@_v13w3r_ICU}`
 
 ### The row beneath
 
-![The row beneath](images/The\ row\ beneath.png)
+![The row beneath](images/The_row_beneath.png)
 
 In this challenge actually the hints is given We intercepted a super secret plan. Can you find anything inside of it? so it saying some file is hidden inside that. i downloaded that file when i click to open it is giving error so i check the file `file plan.png`  image extensions given is png but that is jpeg so i converted to jpeg `mv plan.png plan.jpeg` so first i check strings `strings plan.jpeg` and i got the flag `CYCTF{L00k_1n_th3_h3x_13h54d56}` 
 
 ### What’s the password?
 
-![What's the password](images/'What’s the password?.png')
+![What's the password](images/What_the_password.png)
 
 Given hints in challenge My friend gave me this file, he said there was something hidden. So I downloaded that file. After running strings, exiftool, foremost nothings got so i after that i used steghide cmd without any passphrase nothings got after that i used the sudo as a passphrase beacuse that is the file name `steghide extract -sf sudo.jpg -p sudo` and finally i got the steganopayload457819.txt file i use cat cmd cat steganopayload457819.txt  and got the flag
 
 ### Steg 2 
 
-![steg2](images/'Steg 2.png')
+![steg2](images/'Steg2.png')
 
 This is the 300 points chall, using tools stegsolve will get thne flag `CYCTF{l$b_st3g@n0gr@phy_fOr_th3_w1n}`
 
@@ -33,13 +33,13 @@ This chall is of 450 points, and this is little bit tricky about 100 teams solve
 
 ### Beware the Ides of March
 
-![Beware the ideas of march](images/'Beware the Ides of March.png')
+![Beware the ideas of march](images/Beware_the_Ides_of_March.png')
 
 Given the cipher JFJAM{j@3$@y_j!wo3y} copy and paste in cyberchef and use rot19. got the flag CYCTF{c@3$@r_c!ph3r}
 
 ### Home Base
 
-![Home Base](images/'Home Base.png')
+![Home Base](images/'Home_Base.png')
 
 Given cipher 4a5a57474934325a47464b54475632464f4259474336534a4f564647595653574a354345533454434b52585336564a524f425556435533554e4251574f504a35 this looks like base and also given chall name as a home base so i tried decode hex -> base32 -> base64 -> base85 finally got the flag `CYCTF{it5_@_H0m3_2un!}` 
 ![decoder](images/home_base.png)
@@ -55,13 +55,13 @@ This chall is of 200 points this is the cipher ooflgqofllcedopwvtnhyacwllhehdl i
 
 ###  Password 1 
 
-![Password1](images/'Password 1.png')
+![Password1](images/Password1.png)
 
 In this challenge the flag is given in array form and matching so wrap all the strings based on index. 
 
 ### Password 2 
 
-![Password2](images/'Password 2.png')
+![Password2](images/Password2.png)
 
 In this challenge getting input from user and checking that input given is eqaul to 47 por not and the flag is of 47 it is given in python script.
 ```if(len(password) != 47):
@@ -100,7 +100,7 @@ In this challenge getting input from user and checking that input given is eqaul
 
 ### Look Closely
 
-![Look Closely](images/'Look Closely.png')
+![Look Closely](images/Look_Closely.png)
 
 THis is the basic chall of web ctf category. by seeing the source code got the flag CYCTF{1nSp3t_eL3M3nt?}
 
@@ -112,7 +112,7 @@ This is of 100 points chall of web category. by seeing the /robots.txt file one 
 
 ### Data Store 
 
-![data store](images/'Data Store.png')
+![data store](images/Data_Store.png)
 
 This is of 175 points chall. in this chall login page is given so i tried admin'-- and got the flag `CYCTF{1_l0v3_$q1i}`
 
@@ -121,26 +121,26 @@ This is of 175 points chall. in this chall login page is given so i tried admin'
 
 ### secure (i think?)
 
-![secure i think](images/'secure (i think?).png')
+![secure i think](images/secure_i_think.png')
 
 This is of password cracking category. Given hash is b0439fae31f8cbba6294af86234d5a28. Simply copy-paste in crackstation got the flag `securepassword`
 
 ### Crack the Zip! 
 
-![crack the zip](images/'Crack the Zip!.png')
+![crack the zip](images/Crack_the_Zip.png)
 
 In this challenge given the encrypted zip file with password so to crack i used fcrackzip tool and get the password 
 
 
 ### supa secure 
 
-![supa secure](images/'supa secure.png')
+![supa secure](images/supa_secure.png)
 
 This is of 225 points chall given hash is 19d14c463333a41a1538dbf9eb76aadf this is md5 hash i used https://www.md5online.org/md5-decrypt.html to crack and got the password ilovesalt and that is the flag.
 
 ### Me, Myself, and I 
 
-![Me Myself](images/'Me, Myself, and I.png')
+![Me Myself](images/Me_Myself_and_I.png)
 
 THis is of 225 points chall given hash is 2412f72f0f0213c98c1f9f6065728da4529000e5c3a2e16c4e1379bd3e13ccf543201eec4eb7b400eb5a6c9b774bf0c0eeda44869e08f3a54a0b13109a7644aa i used crackstation and that one is cracked flag is `whoami`
 
