@@ -33,13 +33,13 @@ This chall is of 450 points, and this is little bit tricky about 100 teams solve
 
 ### Beware the Ides of March
 
-![Beware the ideas of march](images/Beware_the_Ides_of_March.png')
+![Beware the ideas of march](images/Beware_the_Ides_of_March.png)
 
 Given the cipher JFJAM{j@3$@y_j!wo3y} copy and paste in cyberchef and use rot19. got the flag CYCTF{c@3$@r_c!ph3r}
 
 ### Home Base
 
-![Home Base](images/'Home_Base.png')
+![Home Base](images/Home_Base.png)
 
 Given cipher 4a5a57474934325a47464b54475632464f4259474336534a4f564647595653574a354345533454434b52585336564a524f425556435533554e4251574f504a35 this looks like base and also given chall name as a home base so i tried decode hex -> base32 -> base64 -> base85 finally got the flag `CYCTF{it5_@_H0m3_2un!}` 
 ![decoder](images/home_base.png)
@@ -121,13 +121,13 @@ This is of 175 points chall. in this chall login page is given so i tried admin'
 
 ### secure (i think?)
 
-![secure i think](images/secure_i_think.png')
+![secure i think](images/secure_i_think.png)
 
 This is of password cracking category. Given hash is b0439fae31f8cbba6294af86234d5a28. Simply copy-paste in crackstation got the flag `securepassword`
 
 ### Crack the Zip! 
 
-![crack the zip](images/Crack_the_Zip.png)
+![crack the zip](images/Crack_the_Zip_.png)
 
 In this challenge given the encrypted zip file with password so to crack i used fcrackzip tool and get the password 
 
